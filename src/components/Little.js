@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 
 function Little() {
   useEffect(() => {
-    return () => alert("Goodbye!!");
+    return () => console.log("Goodbye!!");
   });
   return (
     <div style={{ marginBottom: "50px", border: "1px solid black" }}>
